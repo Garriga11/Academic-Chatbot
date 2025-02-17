@@ -1,0 +1,18 @@
+/* src/app/global.css */
+
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Your custom global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  /* Customize fonts if needed */
+}
+
+/* Optional: Custom global overrides */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #333;
+}
