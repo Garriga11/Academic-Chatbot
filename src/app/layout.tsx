@@ -2,10 +2,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 // Remove the geistMono font import if you don’t need it
 // import 'path-to-geistMono-font'; // This line is no longer necessary if you don't want geistMono font
-<head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
-</head>
-
 import { ReactNode } from 'react';
 
 export default function Layout({ children }: { children: ReactNode }) {
