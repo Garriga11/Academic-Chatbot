@@ -2,7 +2,7 @@
 
 "use client"; // This ensures this is a client-side component
 
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import { OpenAI } from 'openai';
 
 export default function Home() {
