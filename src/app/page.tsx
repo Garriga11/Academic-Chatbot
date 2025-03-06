@@ -49,12 +49,12 @@ export default function Home() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center">Interactive OpenAI GPT-4 Example</h1>
+      <h1 className="text-center">Interactive OpenAI GPT-4</h1>
 
       {/* User input form */}
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="userInput">Ask a question:</label>
+          <label htmlFor="userInput">What do you want to learn?</label>
           <textarea
             className="form-control"
             id="userInput"
