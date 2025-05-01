@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center">Interactive OpenAI GPT-4</h1>
+      <h1 className="text-center">ASK AI</h1>
 
       {/* User input form */}
       <form onSubmit={handleSubmit}>
